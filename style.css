@@ -1,0 +1,102 @@
+
+
+* { 
+    box-sizing: border-box;
+    
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+background-color: #2196f3;;
+
+}
+
+
+.note{
+
+outline: none;
+    
+background: transparent;
+margin: 23px;
+margin-bottom: 50px;
+height: 400px;
+width: 400px;
+}
+
+.note .tools{
+
+background-color: #9ec862;
+display: flex;
+
+justify-content: flex-end;
+
+padding: .5rem;
+
+}
+
+.note .tools button
+{
+
+background-color: transparent;
+
+border: none;
+
+color: #fff;
+cursor: pointer;
+font-size: 1rem;
+margin-left: .5rem;
+
+}
+
+.note .main {
+
+    background-color: rgb(240, 236, 236);
+overflow: hidden;
+
+height: 400px;
+width: 100%;
+font-family: inherit;
+
+}
+
+.note textarea {
+
+border: none;
+height: 400px;
+width: 100%;
+outline: none;
+
+font-family: inherit;
+font-size: 1.2rem;
+}
+
+.note .hidden {
+
+    display: none;
+}
+
+a{
+
+    color: green;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+.add{
+background: #ff9f;
+border-radius: 3px;
+border: none;
+padding: .5rem 1rem;
+position: fixed;
+top: 1rem;
+right: 1rem;
+cursor: pointer;
+
+}
+
+
+
